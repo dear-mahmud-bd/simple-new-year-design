@@ -30,6 +30,7 @@ body {
 
 /* header part css */
 .header-section{
+    margin-top: 30px;
     background: linear-gradient(to bottom, #070211cc, #07021100), url('../images/bannerImage.png') center;  
 }
 .header {
@@ -234,6 +235,10 @@ body {
     border-radius: 10px; 
     box-shadow: 0 4px 8px #0000001a;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.cart-container img:hover {
+    transform: scale(1.05); 
 }
 
 
