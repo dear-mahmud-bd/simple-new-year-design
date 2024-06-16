@@ -16,14 +16,21 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-/* header part css */
 .img-container {
-    background: linear-gradient(to bottom, #070211cc, #07021100), url('../images/bannerImage.png') center;
     margin-top: 50px;
     width: 85%;
     height: 600px;
     border-radius: 15px;
+    margin: 0 auto;
+}
+.mb{
+    margin-bottom: 50px;
+}
+
+
+/* header part css */
+.header-section{
+    background: linear-gradient(to bottom, #070211cc, #07021100), url('../images/bannerImage.png') center;  
 }
 .header {
     text-align: center;
@@ -39,6 +46,7 @@ body {
 }
 
 
+/* Happy New Year Section css */
 .happy-new-year {
     display: flex;
     flex-direction: column;
@@ -64,4 +72,110 @@ body {
     width: 800px;
     margin-bottom: 10px;
 }
+
+
+/* party section css */
+.party-section {
+    width: 95% !important;
+    background: linear-gradient(to right, #080212cc, #07021100), url('../images/Vectorrr.png') center; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px ;
+    margin-right: 35px;
+}
+.party-section .title {
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.party-section .description {
+    margin-bottom: 20px;
+}
+.party-section .join-button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff634700;
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.party-section .join-button:hover {
+    background-color: #ff95007f;
+}
+.twentyfour{
+    background: url('../images/Group70.png') center; 
+    background-repeat: no-repeat;
+}
+
+
+/* ticket Section  */
+.ticket-bg{
+    background: linear-gradient(to bottom, #ffa2a2, #ffe5e500);
+    height: 482px;
+    margin-right: 35px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ticket-bg > p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ticket-bg > p > span{
+    color: #ff0000;
+}
+.ticket-bg > p >button{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* unique part */
+.unique-part{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 35px;
+}
+.unique-part > div {
+    flex: 1; 
+    padding: 20px;
+}
+.unique-part > div img {
+    max-width: 100%; 
+}
+.image {
+    padding: 5px;
+    border: 5px solid #ff0000; 
+    border-radius: 200px;
+}
+.unique-part > div h1 {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+}
+.unq-clr{
+    color: #ff0000;
+}
+.unique-part > div p {
+    font-size: 1rem; 
+    margin-bottom: 20px;
+}
+
+
+
+
 
