@@ -176,6 +176,67 @@ body {
 }
 
 
+/* holiday section css */
+.holiday{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holiday > h5{
+    margin: 0;
+    font-size: 1.25rem;
+}
+.holiday > h1{
+    margin: 5px 0 10px 0;
+    font-size: 3.25rem;
+}
+.holiday > p{
+    margin: 0 200px 0 200px;
+    text-align: center;
+}
+.holiday-sale{
+    width: 97%;
+    background-image: url('../images/Rectangle2.png'), url('../images/Rectangle1.png');
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+    background-size: 100% auto, auto;
+    display: flex;
+    margin-right: 50px;
+}
+.box{
+    margin-left: 20px;
+    width: 50%;
+}
+.discount{
+    height: 50%;
+}
+
+
+/* portfolio section css */
+.portfolio-description > h5{
+    margin: 0;
+    font-size: 1.25rem;
+}
+.portfolio-description > h1{
+    margin: 0;
+    font-size: 2.75rem;
+}
+.cart-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+.cart-container img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px #0000001a;
+    cursor: pointer;
+}
+
+
 
 
 
